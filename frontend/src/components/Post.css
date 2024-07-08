@@ -1,0 +1,32 @@
+.post {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .post h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .post p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .post button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post button:hover {
+    background-color: #0056b3;
+  }
+  

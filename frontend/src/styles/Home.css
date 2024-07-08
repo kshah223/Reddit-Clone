@@ -1,0 +1,49 @@
+.home {
+    padding: 20px;
+  }
+  
+  .form-section, .subreddit-section, .create-post-section, .posts-section {
+    margin-bottom: 20px;
+  }
+  
+  .create-user, .create-subreddit, .create-post {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .create-user h2, .create-subreddit h2, .create-post h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .create-user label, .create-subreddit label, .create-post label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .create-user input, .create-subreddit input, .create-post input, .create-post textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-post textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .subreddit select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
